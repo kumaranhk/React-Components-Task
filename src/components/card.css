@@ -1,0 +1,22 @@
+.card{
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+.card-icon{
+    width: 70px;
+    height: 70px;
+}
+.card-image{
+    width: 200px !important;
+    border-radius: 100% !important;
+    margin-bottom: 20px;
+    box-shadow: 5px 5px 5px rgb(162, 162, 162);
+}
+.card2{
+    height: 200px;
+}
+.card-name{
+    margin-bottom: 10px;
+}
