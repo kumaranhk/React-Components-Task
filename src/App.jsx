@@ -79,58 +79,6 @@ function App() {
   )
 }
 
-// function Cards(){
-//   let featuresData = [
-//     {
-//       image : windowIcon,
-//       title : "Fully Responsive",
-//       description : "This theme will look great on any device, no matter the size!",
-//       type : "features"
-//     },
-//     {
-//       image : layerIcon,
-//       title : "Bootstrap 5 Ready",
-//       description : "Featuring the latest build of the new Bootstrap 5 framework!",
-//       type : "features"
-//     },
-//     {
-//       image : terminalIcon,
-//       title : "Easy to Use",
-//       description : "Ready to use with your own content, or customize the source files!",
-//       type : "features"
-//     }
-//   ];
-// let testimonoial = [
-//   {
-//     image: "https://startbootstrap.github.io/startbootstrap-landing-page/assets/img/testimonials-1.jpg",
-//     title: "Margret E.",
-//     description: "This is fantastic! Thanks so much guys!",
-//     type: "review"
-//   },
-//   {
-//     image: "https://startbootstrap.github.io/startbootstrap-landing-page/assets/img/testimonials-2.jpg",
-//     title: "Fred S.",
-//     description: "Bootstrap is amazing. I've been using it to create lots of super nice landing pages.",
-//     type: "review"
-//   },
-//   {
-//     image: "https://startbootstrap.github.io/startbootstrap-landing-page/assets/img/testimonials-3.jpg",
-//     title: "Sarah W.",
-//     description: "Thanks so much for making these free resources available to us!",
-//     type: "review"
-//   }
-// ]
-//   return (
-//     <>
-//       <div className='cards'>
-//         {obj2.map((val) => (
-//           <Card {...val} key={val.title}/>
-//         )
-//         )}
-//       </div>
-//     </>
-//   )
-// }
 function Banners() {
   let obj = [
     {
