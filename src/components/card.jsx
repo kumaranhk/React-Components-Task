@@ -17,7 +17,7 @@ function Card({ image, title, description, type}){
     else{
         return(
             <>
-                <div className="card2 text-center" style={{width : "21rem" }}>
+                <div className="card2 text-center" style={{width : "21rem",height : "400px" }}>
                     <img src={image} className="card-img-top card-image" alt={title} />
                     <div className="card-body">
                         <h5 className="card-name">{title}</h5>
